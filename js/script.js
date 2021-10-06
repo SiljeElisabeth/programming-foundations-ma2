@@ -20,4 +20,4 @@ for(var i = 0; i < pets.length; i++){
     }
 }
 
-//Question 2
+
