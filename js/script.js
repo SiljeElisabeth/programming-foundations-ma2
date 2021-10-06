@@ -20,4 +20,28 @@ for(var i = 0; i < pets.length; i++){
     }
 }
 
+//Question 2
+
+function animal(dog){   
+   var typeOfDog = typeof dog;
+
+   if(typeOfDog !== "boolean"){
+       return "Please pass a boolean value in."
+   }
+   return dog;
+}
+
+var result = animal("german shepard");
+console.log(result);
+
+
+//Question 3
+
+var subheadingUpdate = document.querySelector("h2");
+var subheadingButton = document.querySelector("button");
+
+subheadingButton.onclick = function(){
+    subheadingUpdate.innerHTML = "Updated subheading.";
+    subheadingUpdate.style.color = "blue";
+}
 
